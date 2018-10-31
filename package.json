@@ -1,0 +1,33 @@
+{
+  "name": "watch-and-build",
+  "version": "1.0.0",
+  "description": "Configurable fs watcher that runs arbitrary build commands when files change.",
+  "main": "lib/watch-and-build.js",
+  "bin": "./bin/watch-and-build.js",
+  "files": [
+    "lib/",
+    "bin/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow",
+    "flow-typed": "flow-typed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawn-mcginty/watch-and-build.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawn-mcginty/watch-and-build/issues"
+  },
+  "homepage": "https://github.com/shawn-mcginty/watch-and-build#readme",
+  "devDependencies": {
+    "flow-bin": "^0.85.0",
+    "flow-typed": "^2.5.1"
+  },
+  "dependencies": {
+    "ps-tree": "^1.1.0"
+  }
+}
