@@ -1,12 +1,16 @@
 {
   "name": "watch-and-build",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Configurable fs watcher that runs arbitrary build commands when files change.",
-  "main": "lib/watch-and-build.js",
-  "bin": "./bin/watch-and-build.js",
+  "main": "./lib/watch-and-build.js",
+  "bin": {
+    "watch-and-build": "./bin/watch-and-build.js"
+  },
   "files": [
-    "lib/",
-    "bin/"
+    "lib",
+    "bin",
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
