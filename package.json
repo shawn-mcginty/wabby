@@ -1,6 +1,6 @@
 {
   "name": "watch-and-build",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Configurable fs watcher that runs arbitrary build commands when files change.",
   "main": "./lib/watch-and-build.js",
   "bin": {
