@@ -1,6 +1,6 @@
 {
   "name": "wabby",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Configurable fs watcher that runs arbitrary build commands when files change.",
   "main": "./lib/wabby.js",
   "bin": {
