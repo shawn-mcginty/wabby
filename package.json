@@ -1,6 +1,6 @@
 {
   "name": "wabby",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Configurable fs watcher that runs arbitrary build commands when files change.",
   "main": "./lib/wabby.js",
   "bin": {
@@ -21,7 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/shawn-mcginty/wabby.git"
   },
-  "author": "",
+  "author": "shawn@traclabs.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shawn-mcginty/wabby/issues"
