@@ -5,7 +5,7 @@ Configurable file system watcher that runs arbitrary commands when specific dire
 
 ### Install
 Install via NPM:
-`npm install --save-dev shawn-mcginty/wabby`
+`npm install --save-dev wabby`
 
 ### Configure
 
