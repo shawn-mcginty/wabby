@@ -3,6 +3,8 @@
 
 Configurable file system watcher that runs arbitrary commands when specific directories of files change.
 
+[![npm version](https://badge.fury.io/js/wabby.svg)](https://badge.fury.io/js/wabby)
+
 ### Install
 Install via NPM:
 `npm install --save-dev wabby`
