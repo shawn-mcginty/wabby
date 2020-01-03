@@ -1,7 +1,7 @@
 {
   "name": "wabby",
-  "version": "1.0.5",
-  "description": "Configurable fs watcher that runs arbitrary build commands when files change.",
+  "version": "1.0.6",
+  "description": "Wabby is a highly configurable tool that helps speed up software development by watching the file system for changes and running arbitrary commands.",
   "main": "./lib/wabby.js",
   "bin": {
     "wabby": "./bin/wabby.js"
@@ -33,5 +33,6 @@
   },
   "dependencies": {
     "ps-tree": "^1.1.0"
-  }
+  },
+  "keywords": [ "monitor", "build", "development", "restart", "autoload", "reload", "terminal", "tdd", "testing" ]
 }
